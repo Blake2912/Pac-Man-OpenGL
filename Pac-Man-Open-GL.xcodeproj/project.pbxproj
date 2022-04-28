@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		646BA76E281AE0C700C9A437 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 646BA76D281AE0C700C9A437 /* main.cpp */; };
+		646BA776281AE21E00C9A437 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646BA775281AE21E00C9A437 /* OpenGL.framework */; };
+		646BA778281AE22500C9A437 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646BA777281AE22500C9A437 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		646BA76A281AE0C700C9A437 /* Pac-Man-Open-GL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Pac-Man-Open-GL"; sourceTree = BUILT_PRODUCTS_DIR; };
 		646BA76D281AE0C700C9A437 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		646BA775281AE21E00C9A437 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		646BA777281AE22500C9A437 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646BA778281AE22500C9A437 /* GLUT.framework in Frameworks */,
+				646BA776281AE21E00C9A437 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +49,7 @@
 			children = (
 				646BA76C281AE0C700C9A437 /* Pac-Man-Open-GL */,
 				646BA76B281AE0C700C9A437 /* Products */,
+				646BA774281AE21D00C9A437 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +67,15 @@
 				646BA76D281AE0C700C9A437 /* main.cpp */,
 			);
 			path = "Pac-Man-Open-GL";
+			sourceTree = "<group>";
+		};
+		646BA774281AE21D00C9A437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				646BA777281AE22500C9A437 /* GLUT.framework */,
+				646BA775281AE21E00C9A437 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
